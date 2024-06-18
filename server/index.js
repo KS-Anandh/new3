@@ -10,7 +10,7 @@ app.get("/", async (req, res) => {
     res.send("Api Running on vercel");s
 })
 
-mongoose.connect("mongodb+srv://KS-Anandh:Nandha1432@cluster0.4rkke6i.mongodb.net/studentInfo?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://anandh:anandh1234@cluster0.hjcdzwx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 .then(()=>{
     console.log("Database Connected...")
 })
